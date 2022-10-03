@@ -41,21 +41,22 @@ Let's configure git to yoiur system
 
 then move to that folder which you want to upload to your git repository
 
->D:
->cd D:\Weekend-javafsd-27-08-2022
+// >D:
+// >cd C:\JFSD\Session1
 
 then execute below command for git 
 
-> git init (initialize repository)
-> git branch -M main  (change the branch)
-> git remote add origin https://github.com/sonam-niit/Weekend-JavaFSD-27-08-2022.git (Add Origin)
+// > git init (initialize repository)
+// > git branch -M main  (change the branch)
+// > git remote add origin https://github.com/sonam-niit/Weekend-JavaFSD-27-08-2022.git (Add Origin)
 
 These three command needs to execute only one time.
 
 for updating code everytime
 
+>cd C:\JFSD\Session1
 >git add .
->git commit -m "git notes"
+>git commit -m "File name which needs to commit"
 >git push -u origin main
 
 these will push the code on git repository
